@@ -1,6 +1,6 @@
 pkgname=gettext
 pkgver=0.26
-pkgrel=${pkgrel:-0}
+pkgrel=0
 pkgdesc="GNU locale utilities"
 url="https://www.gnu.org/software/gettext/gettext.html"
 arch="all"
@@ -71,7 +71,6 @@ _envsubst() {
 
     amove usr/bin/envsubst
 }
-options="$options ${DISABLE_CHECK:+!check}"
 sha512sums="
 544e41c9390695df1c21542842e9ca027a03cb7d4045d8cd759dec1a3dfb624aae900751b458bdb31d6454b37c40c474a952059b884555a03c7c95d6d0e687b1  gettext-0.26.tar.xz
 "
